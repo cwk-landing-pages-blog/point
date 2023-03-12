@@ -1,0 +1,23 @@
+{
+  "server-component": {
+    "welcome": "mirse ardhet"
+  },
+  "common": {
+    "call": "Call us"
+
+  },
+  "hero":{
+    "slogan":"Where fast food meets great taste.",
+    "experience":"Experience the best",
+    "isOrder":"A je gati per porosine?",
+    "sloganPointService":"At Point Food, our standout worker is always on point!",
+    "inElbasan":"in the city"
+  },
+  "location":{
+    "findUs":"Na gjeni ne harte"
+  },
+  "contact":{
+    "emailSubject": "Selam 👋 Point Food & Coffee",
+    "emailBody":"Une po ju shkruaj per nje porosi..."
+  }
+}

@@ -1,0 +1,14 @@
+@import '../typed.scss';
+
+
+.typed{
+  @include typed('Sufllaqe', '','Pizza','Crepes',"Coffee", "Shawarma","Pita Arabe","Pita Turke  ");
+  &::before {
+    font-weight: bold;
+}
+&::after {
+    border-right-width: 2px;
+}
+}
+
+

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&display=swap');
+
+.title {
+  font-family: 'Pacifico';
+  font-size: 36px;
+  font-weight: 600;
+
+  @media (max-width: 639px) {
+    font-size: 28px;
+  }
+}
+.slogan {
+  font-family: 'Gentium Plus';
+  font-style: italic;
+  font-size: 16px;
+  @media (max-width: 639px) {
+    font-size: 14px;
+  }
+}
+
+.css-blurry-gradient-logo {
+  position: absolute;
+  top: 5%;
+  left: -15%;
+  width: 200px;
+  height: 200px;
+	border-radius: 50% 22% 40% 80%;  
+	filter: blur(100px);
+  background: radial-gradient(circle at 50% 50%,rgb(207, 61, 16), rgba(206, 67, 24, 0.5));
+  opacity: 0.5;
+}

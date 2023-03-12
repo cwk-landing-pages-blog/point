@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import './custom.scss';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+
+// body{
+//   background-image: linear-gradient( 110.1deg,  rgb(24, 2, 65) 44.2%, rgb(194, 86, 24)138.2% );
+// }
+
+.pacifico{
+  font-family: "Pacifico";
+}

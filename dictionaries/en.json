@@ -1,0 +1,22 @@
+{
+  "server-component": {
+    "welcome": "Welcome"
+  },
+  "common": {
+    "call": "Call us"
+  },
+  "hero":{
+    "slogan":"Where fast food meets great taste.",
+    "experience":"Experience the best",
+    "isOrder":"Are you ready to order?",
+    "inElbasan":"in the city",
+    "sloganPointService":"At Point Food, our standout worker is always on point!"
+  },
+  "location":{
+    "findUs":"Find us in Maps"
+  },
+  "contact":{
+    "emailSubject": "Selam 👋 Point Food & Coffee",
+    "emailBody":"I am writing for an order..."
+  }
+}
