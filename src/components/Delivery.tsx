@@ -4,7 +4,6 @@ import Image from 'next/image';
 import call from '@/assets/icons/call-us.png';
 import { pointFood } from '@/constants/pointFood';
 import Link from 'next/link';
-import { Tag, Button } from 'antd';
 
 type Props = {};
 
@@ -15,7 +14,7 @@ const Delivery = (props: Props) => {
     <div className='flex flex-col relative justify-center items-center gap-4 max-w-[360px] z-20'>
       <Image alt='delivery guy' src={delivery} width={300} height={270} />
 
-      <Link href={`tel:${tel[0].primary}`} className='absolute top-[10px]'>
+      <Link href={`tel:${tel}`} className='absolute top-[10px]'>
         <div className='flex justify-center items-center gap-4 z-20'>
           <Image
             src={call}
