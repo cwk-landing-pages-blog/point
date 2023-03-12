@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    FrontEnd Developer: CWK Team
+    Site: 
+    Contact: kol.paja@gmail.com
+    Location: Elbasan, Albania
+
+
+# TECHNOLOGY
+
+    Last update: 2023/03/12
+    Language: English
+    Doctype: HTML5
+    Software: Visual Studio Code
+    Standards: CSS3, SCSS, HTML5, Next Js, React Js, Tailwindcss,
+

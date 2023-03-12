@@ -6,6 +6,9 @@ export const pointFood = {
   title:'Point Food & Coffee',
   keywords:['food','fast','halal','pizza'],
   startedOn:'15/11/2017',
+  copyright:'Point Dimensionless - Food & Coffee',
+  description:'Halal Fast food restaurant, with menu of Turkish, arabic and Mediterraneo  cuisine with sweet and salty crepes ',
+  imageUrl:'https://res.cloudinary.com/dlbxp54bb/image/upload/v1678662813/point-food_ihqljj.png',
   addressUrl:'https://goo.gl/maps/X29eGYiTjQ4YFwVo7',
   tel:[
     {primary: '+355693931019'},
