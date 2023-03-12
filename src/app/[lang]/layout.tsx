@@ -13,7 +13,7 @@ const {
   keywords,
   tel,
   title,
-  addressUrl,
+  socials,
   website,
   copyright,
   description,
@@ -41,15 +41,17 @@ export default function Root({
         <meta name='title' content={title} />
         <meta name='description' content={description} />
         <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
-        {/* <link rel='canonical' href={website} /> */}
+        <link rel='canonical' href={website} />
         <link rel='author' href='humans.txt' />
         <link rel='manifest' href='/manifest.json' />
         <meta name='author' content='CWK Team' />
+        <meta name='tel' content={tel} />
+        <meta name='email' content={socials['email'].link} />
         <meta name='keyword' content={keywords.join(', ')} />
         <meta name='copyright' content={copyright} />
         <meta name='locale' content={params.lang} />
         <meta name='generator' content={metaDatas.generator} />
-        {/* <meta name='base_url' content={process.env.websiteUrl} /> */}
+        <meta name='base_url' content={website} />
         <meta name='robots' content={metaDatas.robots} />
         <meta name='language' content={params.lang} />
         <meta name='twitter:widgets:csp' content='on' />
@@ -57,12 +59,12 @@ export default function Root({
         <meta name='twitter:title' content={title} />
         <meta name='twitter:description' content={description} />
         <meta name='twitter:image' content={imageUrl} />
-        {/* <meta name='twitter:url' content={website} /> */}
+        <meta name='twitter:url' content={website} />
         <meta property='og:type' content={metaDatas.ogType} />
         <meta property='og:title' content={title} />
         <meta property='og:description' content={description} />
         <meta property='og:image' content={imageUrl} />
-        {/* <meta property='og:url' content={website} /> */}
+        <meta property='og:url' content={website} />
         <meta property='og:site_name' content={metaDatas.siteName} />
         <meta property='og:locale' content={params.lang} />
 

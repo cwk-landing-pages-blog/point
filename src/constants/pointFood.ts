@@ -7,21 +7,18 @@ export const pointFood = {
   keywords:['food','fast','halal','pizza'],
   startedOn:'15/11/2017',
   copyright:'Point Dimensionless - Food & Coffee',
-  description:'Halal Fast food restaurant, with menu of Turkish, arabic and Mediterraneo  cuisine with sweet and salty crepes ',
+  description:'Indulge in the delicious flavors of Halal fast food, coffee, and crepes at our restaurant. Our menu features a range of options that cater to different tastes, from savory burgers and sandwiches to sweet crepes and specialty coffee drinks. Visit us today and experience the perfect blend of convenience and quality in our warm and inviting atmosphere.',
   imageUrl:'https://res.cloudinary.com/dlbxp54bb/image/upload/v1678662813/point-food_ihqljj.png',
   addressUrl:'https://goo.gl/maps/X29eGYiTjQ4YFwVo7',
-  tel:[
-    {primary: '+355693931019'},
-    {secondary: '+355693931018'},
-  ],
+  tel:'+355693931019',
   address: {
     street:"25 Nentori, Lagja Sul Papri 134 ",
     city:' Elbasan ',
     country:' Albania ',
     postCode:' 3001 '
   },
-  website:'',
-  linktree:'',
+  website:'https://point-food.netlify.app/',
+  linktree:'https://point-food.netlify.app/linktree',
   socials:{
     facebook:{
       key:'facebook',
